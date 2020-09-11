@@ -6,7 +6,8 @@
 
         <title>Laracasts Assets</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" type="text/css" href="/css/app.css">
 
     </head>
@@ -24,7 +25,7 @@
                 <main class="flex">
                     <aside class="w-1/5">
                         <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-">The Brand</h5>
+                            <h5 class="uppercase font-bold mb-3">The Brand</h5>
                             <ul>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'logo' }" exact>Logo</router-link></li>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'log_symbol' }">Logo Symbol</router-link></li>

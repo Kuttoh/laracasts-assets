@@ -1,5 +1,5 @@
 <template>
-    <h1 class="font-normal text-3xl text-grey leading-none">
+    <h1 class="font-normal text-3xl text-grey-900 leading-none">
 
         Loaders And Animations
 

@@ -1,9 +1,9 @@
 <template>
-    <h1 class="font-normal text-3xl text-grey leading-none">
+        <h1 class="font-light text-3xl text-grey-900 leading-none">
 
-        Full Logo
+            Full Logo
 
-    </h1>
+        </h1>
 </template>
 
 <script>
