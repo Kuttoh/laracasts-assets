@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-grey-900 leading-none mb-8">
+        <h1 class="page-title">
 
             Logo Symbol
 
         </h1>
 
         <div class="mb-10">
-            <picture style="height: 382px;" class="block shadow flex rounded-lg items-center justify-center mb-6">
+            <picture style="height: 382px;" class="asset-picture">
                 <img src="/images/symbol-original.svg" alt="logo">
             </picture>
 
@@ -15,14 +15,14 @@
                 <p>Original symbol on <strong>white</strong> background</p>
 
                 <a href="/images/symbol-original.svg"
-                   class="border border-grey-light px-8 py-2 rounded-full text-black text-xs">
+                   class="asset-button">
                     symbol-original.svg
                 </a>
             </div>
         </div>
 
         <div class="mb-10">
-            <picture style="height: 382px;" class="block shadow flex rounded-lg items-center justify-center mb-6 bg-blue">
+            <picture style="height: 382px;" class="asset-picture bg-blue">
                 <img src="/images/symbol-negative.svg" alt="logo">
             </picture>
 
@@ -30,14 +30,14 @@
                 <p>Negative symbol on <strong>blue</strong> background</p>
 
                 <a href="/images/symbol-negative.svg"
-                   class="border border-grey-light px-8 py-2 rounded-full text-black text-xs">
+                   class="asset-button">
                     symbol-negative.svg
                 </a>
             </div>
         </div>
 
         <div class="mb-10">
-            <picture style="height: 382px;" class="block shadow flex rounded-lg items-center justify-center mb-6 bg-black">
+            <picture style="height: 382px;" class="asset-picture bg-black">
                 <img src="/images/symbol-pure-negative.svg" alt="logo">
             </picture>
 
@@ -45,7 +45,7 @@
                 <p>Pure negative symbol on <strong>black</strong> background</p>
 
                 <a href="/images/symbol-pure-negative.svg"
-                   class="border border-grey-light px-8 py-2 rounded-full text-black text-xs">
+                   class="asset-button">
                     symbol-pure-negative.svg
                 </a>
             </div>
