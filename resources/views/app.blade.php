@@ -33,13 +33,19 @@
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'typography' }">Typography</router-link></li>
                             </ul>
                         </section>
-                        <section>
+                        <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'mascot' }">Mascot</router-link></li>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'illustrations' }">Illustrations</router-link></li>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'loaders_and_animations' }">Loaders And Animations</router-link></li>
                                 <li class="text-sm leading-loose"><router-link :to="{ name: 'wallpapers' }">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+                            <ul>
+                                <li class="text-sm leading-loose"><router-link :to="{ name: 'site_stats' }">Site Stats</router-link></li>
                             </ul>
                         </section>
                     </aside>

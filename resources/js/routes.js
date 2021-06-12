@@ -6,6 +6,7 @@ import Mascot from "./components/Mascot";
 import Illustrations from "./components/Illustrations";
 import LoadersAndAnimations from "./components/LoadersAndAnimations";
 import Wallpapers from "./components/Wallpapers";
+import SiteStats from "./components/SiteStats";
 import NotFound from "./components/NotFound";
 
 export default {
@@ -59,6 +60,11 @@ export default {
             path: '/wallpapers',
             component: Wallpapers,
             name: 'wallpapers'
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats,
+            name: 'site_stats'
         },
     ]
 }

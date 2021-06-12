@@ -614,6 +614,40 @@ video {
   }
 }
 
+.asset-picture {
+  display: block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.asset-button {
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #DEDEDE;
+  border-color: rgba(222, 222, 222, var(--border-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 9999px;
+  --text-opacity: 1;
+  color: #222222;
+  color: rgba(34, 34, 34, var(--text-opacity));
+  font-size: 0.75rem;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 1.875rem;
+  color: #4a4a4a;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
